@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "pouchdb": "file:./typings/manual/pouchdb.d.ts"
+  },
+  "globalDependencies": {
+    "lodash": "registry:dt/lodash#4.14.0+20161110215204",
+    "mithril": "registry:dt/mithril#0.0.0+20160501155657",
+    "moment": "registry:dt/moment#2.11.1+20161010105546",
+    "react": "registry:dt/react#0.14.0+20161008064207",
+    "react-native": "registry:dt/react-native#0.34.0+20161012133835"
+  }
+}

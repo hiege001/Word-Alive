@@ -1,0 +1,17 @@
+// get typings to have better intellisence in VS code
+sudo npm install typings --global
+typings init
+
+// For installing react intellisence
+sudo typings install dt~react --save --global
+sudo typings install dt~react-native --save --global
+
+// do something like this for all of the libs in the webpack.config.js file:
+sudo typings install dt~mithril --save --global
+
+// this creates a typing file for node modules that do not have typings (if above command did not work)
+dts-gen -m pouchdb
+typings install --save file:./typings/manual/pouchdb.d.ts
+
+// if the generated .d.ts file does not work, try to find the .d.ts file online, and then use this line in package.json:
+"typings": "./typings/manual/pouchdb.d.ts",

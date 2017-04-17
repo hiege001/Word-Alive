@@ -1,0 +1,43 @@
+{
+  "name": "dtl",
+  "version": "1.0.0",
+  "description": "Defeat the Lies the Video Game",
+  "main": "index.js",
+  "dependencies": {
+    "animejs": "^2.0.2",
+    "lodash": "^4.17.2",
+    "mithril": "^0.2.5",
+    "moment": "^2.16.0",
+    "msx": "^0.4.1",
+    "pouchdb": "^6.0.0"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^1.1.1",
+    "css-loader": "^0.26.0",
+    "file-loader": "^0.9.0",
+    "html-webpack-plugin": "^2.24.1",
+    "loader-utils": "^0.2.11",
+    "msx-loader": "^0.4.0",
+    "raw-loader": "^0.5.1",
+    "style-loader": "^0.13.1",
+    "typings": "*",
+    "url-loader": "^0.5.7",
+    "webpack": "*"
+  },
+  "typings": "./typings/manual/pouchdb.d.ts",
+  "scripts": {
+    "build": "webpack",
+    "watch": "webpack --watch --progress --colors --display-error-details --display-cached"
+  },
+  "engines": {
+    "node": ">= 6",
+    "npm": ">= 3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hiege001/Word-Alive.git"
+  },
+  "author": "Jake Hiegel",
+  "license": "ISC",
+  "homepage": "https://github.com/hiege001/Word-Alive"
+}
